@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Мастерская кофе</title>
+<meta name="description" content="Мастерская кофе в Минске: обжариваем партиями по 5 кг и привозим по пятницам. Зерно у вас на 1–3 день после обжарки. Подписка 54 BYN в месяц.">
+<meta name="theme-color" content="#F6ECD4" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1C110B" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Yeseva+One&family=Caveat:wght@600;700&family=Oswald:wght@500;600&family=Onest:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="bean" viewBox="0 0 24 24">
+    <ellipse cx="12" cy="12" rx="7.2" ry="10" transform="rotate(35 12 12)" fill="currentColor"/>
+    <path d="M7.2 5.2c3.2 2.6 1.2 5.2 3.4 7.4 2.1 2.1 3.4 3.2 6.2 6" fill="none" stroke="var(--crease, var(--bg))" stroke-width="1.8" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="bag" viewBox="0 0 24 24">
+    <path d="M5 8h14l-1.1 12H6.1L5 8z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M9 8V6.5a3 3 0 0 1 6 0V8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="cluster" viewBox="0 0 240 110">
+    <use href="#bean" x="14" y="34" width="52" height="52" transform="rotate(-14 40 60)"/>
+    <use href="#bean" x="70" y="8" width="46" height="46" transform="rotate(10 93 31)"/>
+    <use href="#bean" x="100" y="50" width="58" height="58" transform="rotate(-6 129 79)"/>
+    <use href="#bean" x="160" y="14" width="50" height="50" transform="rotate(18 185 39)"/>
+    <use href="#bean" x="186" y="56" width="42" height="42" transform="rotate(-22 207 77)"/>
+  </symbol>
+</svg>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top"><svg aria-hidden="true"><use href="#bean"/></svg>Мастерская кофе</a>
+    <nav aria-label="Разделы">
+      <a href="#coffee">О кофе</a>
+      <a href="#order">Как заказать</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <a class="btn buy sm header-buy" href="{{INSTAGRAM_URL}}" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#bag"/></svg>Заказать</a>
+  </div>
+</header>
+
+<main class="wrap" id="top">
+  <section class="hero" aria-labelledby="h1">
+    <div>
+      <p class="eyebrow">Обжарка кофе в Минске</p>
+      <h1 id="h1">Доставка кофе <em>после свежей обжарки</em></h1>
+      <p class="lead">Свежий кофе в зёрнах для дома и офиса. К вам он приезжает на 1–3 день после обжарки.</p>
+      <div class="cta-row">
+        <a class="btn buy" href="{{INSTAGRAM_URL}}" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#bag"/></svg>Заказать кофе</a>
+        <a class="btn" href="#coffee">Посмотреть сорта</a>
+      </div>
+      <p class="hero-sub"><a href="#subscription">Или подписка: 54 BYN в месяц, доставка бесплатно &rarr;</a></p>
+    </div>
+    <aside class="week" aria-label="Как проходит неделя">
+      <h2>Неделя нашего кофе</h2>
+      <ol>
+        <li><span class="day">Чт</span><div><strong>Обжариваем</strong><span class="s">Партиями по 5 кг, чтобы всё было свежим.</span></div></li>
+        <li><span class="day">Пт</span><div><strong>Развозим по Минску</strong><span class="s">Сами, без складов и посредников.</span></div></li>
+        <li><span class="day">1–3 день</span><div><strong>Кофе у вас на кухне</strong><span class="s">Самое время варить.</span></div></li>
+      </ol>
+    </aside>
+  </section>
+
+  <section class="block band" aria-labelledby="why">
+    <h2 class="title" id="why">Почему стоит выбрать наш кофе</h2>
+    <p class="sub">Кофе вкуснее всего, пока он свежий. Всё остальное у нас устроено вокруг этого.</p>
+    <div class="reasons">
+      <div class="reason"><div class="num">5 кг</div><h3>Маленькие партии</h3><p>Обжариваем немного и под заказ. Нечему залёживаться.</p></div>
+      <div class="reason"><div class="num">1–3</div><h3>Дня от обжарки до вас</h3><p>Обжарка в четверг, доставка в пятницу. Вы получаете зерно почти из обжарочной.</p></div>
+      <div class="reason"><div class="num">2019</div><h3>Мы раньше были бариста</h3><p>Аня и Дмитрий знают, как кофе ведёт себя в чашке, и подбирают обжарку под это.</p></div>
+    </div>
+  </section>
+
+  <section class="block" id="coffee" aria-labelledby="coffee-h">
+    <h2 class="title" id="coffee-h">О кофе: что мы обжариваем</h2>
+    <p class="sub">Выбирайте сорт или напишите нам, подскажем под вашу кофеварку.</p>
+    <div class="beans">
+      <article class="card">
+        <div class="tile"><svg viewBox="0 0 240 110" style="color:var(--bean-1)" aria-hidden="true"><use href="#cluster"/></svg></div>
+        <div class="card-body">
+          <h4>Эфиопия Иргачеффе</h4>
+          <p>Цветочный, с бергамотом. Светлая обжарка.</p>
+          <div class="price"><span class="w">250 г</span><span class="p">32 BYN</span></div>
+          <a class="btn buy sm full" href="{{INSTAGRAM_URL}}" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#bag"/></svg>Заказать</a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="tile"><svg viewBox="0 0 240 110" style="color:var(--bean-2)" aria-hidden="true"><use href="#cluster"/></svg></div>
+        <div class="card-body">
+          <h4>Колумбия Уила</h4>
+          <p>Карамель и красное яблоко.</p>
+          <div class="price"><span class="w">250 г</span><span class="p">29 BYN</span></div>
+          <a class="btn buy sm full" href="{{INSTAGRAM_URL}}" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#bag"/></svg>Заказать</a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="tile"><svg viewBox="0 0 240 110" style="color:var(--bean-3)" aria-hidden="true"><use href="#cluster"/></svg></div>
+        <div class="card-body">
+          <h4>Бразилия Серрадо</h4>
+          <p>Орех и шоколад. Хорошо подходит под эспрессо.</p>
+          <div class="price"><span class="w">250 г</span><span class="p">26 BYN</span></div>
+          <a class="btn buy sm full" href="{{INSTAGRAM_URL}}" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#bag"/></svg>Заказать</a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="tile mocha">
+          <svg viewBox="0 0 240 110" aria-hidden="true">
+            <rect x="70" y="14" width="100" height="84" rx="9" style="fill:var(--on-mocha)"/>
+            <rect x="70" y="14" width="100" height="18" rx="9" style="fill:var(--caramel-lt)"/>
+            <rect x="70" y="24" width="100" height="8" style="fill:var(--caramel-lt)"/>
+            <use href="#bean" x="104" y="44" width="32" height="32" style="color:var(--mocha);--crease:var(--on-mocha)"/>
+          </svg>
+        </div>
+        <div class="card-body">
+          <h4>Дрип-пакеты, ассорти</h4>
+          <p>Заваривается прямо в кружке горячей водой. Для работы и поездок.</p>
+          <div class="price"><span class="w">10 штук</span><span class="p">18 BYN</span></div>
+          <a class="btn buy sm full" href="{{INSTAGRAM_URL}}" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#bag"/></svg>Заказать</a>
+        </div>
+      </article>
+    </div>
+    <p class="note">Что в наличии на ближайшую пятницу, уточняйте в Instagram или по телефону.</p>
+  </section>
+
+  <section class="sub-wrap" id="subscription" aria-labelledby="subs-h">
+    <div class="subscribe tone-mocha">
+      <svg class="deco" viewBox="0 0 240 110" aria-hidden="true"><use href="#cluster"/></svg>
+      <div>
+        <p class="script">Подписка</p>
+        <h2 class="title" id="subs-h">Свежий кофе каждый месяц</h2>
+        <ul>
+          <li>2 пачки по 250 г</li>
+          <li>Один раз в месяц</li>
+          <li>Доставка бесплатно</li>
+        </ul>
+      </div>
+      <div class="subscribe-price">
+        <div class="amount">54 BYN</div>
+        <div class="per">в месяц</div>
+        <a class="btn buy" href="{{INSTAGRAM_URL}}" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#bag"/></svg>Оформить подписку</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="block band" id="order" aria-labelledby="order-h">
+    <h2 class="title" id="order-h">Как заказать</h2>
+    <p class="sub">Заказываем через Instagram и по телефону. Без регистраций и корзин.</p>
+    <ol class="steps">
+      <li><h3>Выберите кофе</h3><p>Посмотрите сорта выше или спросите совета. Расскажите, на чём варите.</p></li>
+      <li><h3>Напишите или позвоните до четверга</h3><p>Мы обжарим кофе в четверг. Если успеете до обжарки, он поедет к вам в ближайшую пятницу.</p></li>
+      <li><h3>Получите в пятницу</h3><p>Привезём по Минску. Адрес и удобное время согласуем в переписке.</p></li>
+    </ol>
+    <div class="cta-row">
+      <a class="btn buy" href="{{INSTAGRAM_URL}}" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#bag"/></svg>Написать в Instagram</a>
+      <a class="btn" href="#contacts">Телефон и контакты</a>
+    </div>
+  </section>
+
+  <section class="block" aria-labelledby="about-h">
+    <div class="about">
+      <div>
+        <h2 class="title" id="about-h">Аня и Дмитрий</h2>
+        <p>Мы много лет стояли за стойкой, а потом решили сами обжаривать кофе. С 2019 года мы работаем в небольшой мастерской, партиями по 5 кг.</p>
+        <p>Мы сами обжариваем, сами фасуем и сами развозим по Минску. Фотографии мастерской и обжарки смотрите в нашем Instagram.</p>
+      </div>
+      <div class="art" aria-hidden="true">
+        <svg viewBox="0 0 320 220">
+          <g fill="currentColor">
+            <use href="#bean" x="20" y="20" width="64" height="64" transform="rotate(-12 52 52)"/>
+            <use href="#bean" x="110" y="8" width="52" height="52"/>
+            <use href="#bean" x="196" y="30" width="72" height="72" transform="rotate(14 232 66)"/>
+            <use href="#bean" x="60" y="104" width="76" height="76" transform="rotate(8 98 142)"/>
+            <use href="#bean" x="170" y="126" width="56" height="56" transform="rotate(-20 198 154)"/>
+            <use href="#bean" x="246" y="138" width="48" height="48"/>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <section class="sub-wrap" id="contacts" aria-labelledby="contacts-h">
+    <div class="contacts tone-mocha">
+      <div>
+        <h2 class="title" id="contacts-h">Контакты</h2>
+        <p style="margin-top:12px">Пишите, звоните, спрашивайте про сорта и ближайшую пятницу.</p>
+      </div>
+      <div class="contact-list">
+        <a class="btn buy" href="{{INSTAGRAM_URL}}" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#bag"/></svg>Instagram: {{INSTAGRAM_HANDLE}}</a>
+        <div class="phone-line">
+          <a class="phone" href="tel:{{PHONE_TEL}}" id="phone">{{PHONE_TEXT}}</a>
+          <button class="copy" type="button" id="copy-phone">Скопировать номер</button>
+        </div>
+        <p class="hours">Обжарка по четвергам. Доставка по Минску по пятницам.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>© Мастерская кофе, Минск. Обжариваем с 2019 года.</footer>
+</main>
+
+<div class="dock">
+  <a class="btn buy" href="{{INSTAGRAM_URL}}" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#bag"/></svg>Заказать кофе</a>
+  <a class="btn" href="#contacts">Позвонить</a>
+</div>
+<script src="/app.js" defer></script>
+</body>
+</html>

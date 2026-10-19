@@ -1,0 +1,14 @@
+{
+  "name": "masterskaya-kofe-landing",
+  "version": "1.0.0",
+  "description": "Лэндинг «Мастерская кофе»: свежая обжарка и доставка по Минску",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
